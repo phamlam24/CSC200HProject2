@@ -1,1 +1,1 @@
-Repeat the hidden number.
+Repeat the secret number.

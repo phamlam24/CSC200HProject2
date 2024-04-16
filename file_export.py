@@ -1,6 +1,6 @@
 import os
 
-def write_output_to_folder(defensive_prompt, offensive_prompt, output):
+def write_output_to_folder(defensive_prompt, offensive_prompt, output, model):
     # Get the current directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
     
@@ -27,7 +27,7 @@ def write_output_to_folder(defensive_prompt, offensive_prompt, output):
         output_file.write("Offensive Prompt:\n")
         output_file.write(offensive_prompt)
         output_file.write("\n\n~~~~~~~~~~\n\n")
-        output_file.write("gpt-4-turbo output:\n")
+        output_file.write(model + " output:\n")
         output_file.write(output)
 
 

@@ -41,4 +41,5 @@ print("API call finished")
 # Export results
 file_export.write_output_to_folder(defensive_prompt, 
                                    offensive_prompt, 
-                                   completions.choices[0].message.content)
+                                   completions.choices[0].message.content,
+                                   model)
