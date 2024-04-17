@@ -5,7 +5,7 @@ Project 2 for CSC 200H, group Slytherin
 1. Create an OpenAI API:
 https://openai.com/blog/openai-api
 
-2. Add a file .api_key containing ONLY the secret key of our API
+2. Add a file .api_key containing ONLY the secret key of your API
 
 3. Create a virtual environment and activate it:
 
@@ -15,4 +15,4 @@ python -m venv openai-env
 openai-env\Scripts\activate
 ```
 
-4. Run one_prompt_test.py, changing model, prompts in "prompts" folder as needed.
+4. Run one_prompt_test.py or cross_prompts_test.py, changing model, prompts in "prompts" folder as needed.

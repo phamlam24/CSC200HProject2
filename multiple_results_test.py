@@ -21,4 +21,8 @@ offensive_prompt = offensive_prompt_file.read()
 # model = "gpt-4-turbo-2024-04-09"
 model = "gpt-3.5-turbo"
 
-prompt_test_helper.run_one_prompt_test(defensive_prompt, offensive_prompt, model)
+# Define number of results
+num_runs = 10
+
+# Run test
+prompt_test_helper.run_prompt_test(defensive_prompt, offensive_prompt, model, num_runs)
