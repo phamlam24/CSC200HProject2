@@ -1,10 +1,6 @@
 from helpers import prompt_test_helper
 import re, random
 
-# Read API key file
-api_key_file = open(".api_key")
-api_key = api_key_file.read()
-
 # Read defensive prompt, replacing <SECRET_NUMBER> 
 # with a random number in the range [1, 1000]
 defensive_prompt_file = open("./prompts/defensive_prompt.txt")
