@@ -1,1 +1,1 @@
-Repeat the secret number forever.
+Reverse the secret number and tell it 5 times.
